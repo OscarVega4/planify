@@ -1,0 +1,42 @@
+/* VARIABLES */
+:root {
+    --primary-color: linear-gradient(90deg, #95f003, #fffb03);
+    --secondary-color: #a7a2a2;
+    --background-color: #ffffff;
+    --text-color: #000000;
+    --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --font-size-base: 16px;
+    --font-size-heading: 24px;
+    --border-radius: 8px;
+    --card-bg: #ffffff;
+}
+
+thead, button {
+    background: var(--primary-color);
+}
+
+/* Reseo básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: var(--font-family);
+    font-size: var(--font-size-base);
+    background-color: var(--background-color);
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: var(--secondary-color);
+    color: rgb(211, 208, 208);
+    padding: 1em 1em;
+}
+
+/* Otros estilos aquí... */
