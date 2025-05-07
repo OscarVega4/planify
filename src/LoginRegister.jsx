@@ -96,7 +96,7 @@ function LoginRegister() {
     <div className="wrapper">
       <nav className="nav">
         <div className="nav-logo">
-          <img src="/Logos/PLANify with rocco white.png" alt="logo" />
+          <img src="/img/PLANify with rocco white.png" alt="logo" />
         </div>
         <div className="nav-button">
           <button className="btn white-btn" id="loginBtn" onClick={() => window.login()}>Iniciar sesión</button>
@@ -108,7 +108,7 @@ function LoginRegister() {
         <div className="login-container" id="login">
           <div className="top">
             <span>¿No tienes una cuenta? <a href="#" onClick={() => window.register()}>Registrate</a></span>
-            <header>Inicio de Sesión</header>
+            <div className='header'>Inicio de Sesión</div>
           </div>
           <div className="input-box">
             <input type="text" className="input-field" id="username" placeholder="Nombre de usuario o correo" />
@@ -132,7 +132,7 @@ function LoginRegister() {
         <div className="register-container" id="register">
           <div className="top">
             <span>¿Tienes una cuenta? <a href="#" onClick={() => window.login()}>Iniciar Sesión</a></span>
-            <header>Regístrate</header>
+            <div className='header'>Regístrate</div>
           </div>
           <div className="two-forms">
             <div className="input-box">
